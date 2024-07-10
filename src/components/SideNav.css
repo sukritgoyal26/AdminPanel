@@ -11,22 +11,56 @@
     padding: 0;
     display: flex;
     width: 100%;
-    /* justify-content: space-evenly; */
+    gap: 10px;
+    
     align-items: center;
+}
+
+div.logo.flex{
+    gap: 2px;
 }
 
 h5,h6{
     margin: 0;
+}
+h6{
+    text-align: start;
+    color: #686868;
+}
+.dark{
+    color: #686868;
+}
+
+.heading{
+    margin: 5px;
 }
 
 .option{
     height: 40px;
 }
 
-div.option.flex :hover{
-    background-color:#ffffff;
+.optionList :hover , .Docs :hover , .AcessControl :hover{
+    background-color:#373636;
+    border-radius: 10px;
+
+    color: #ffffff;
 }
 
 .option img{
     height: 20px;
+}
+
+.user{
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+    justify-content: space-between;
+    width: 250px;
+
+}
+
+.name h5{
+    font-size: 10px;
+    text-align: start;
+    
 }

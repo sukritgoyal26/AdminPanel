@@ -31,7 +31,7 @@ function SideNav() {
                 </div>
             </div>
             <div className="AcessControl">
-                <h6>Acess Control</h6>
+                <h6 className='heading'>Acess Control</h6>
                 <div className="option flex">
                     <img src="Assets/Role.svg" alt="" />
                     <h5>Roles</h5>
@@ -39,7 +39,7 @@ function SideNav() {
 
             </div>
             <div className="Docs">
-                <h6>Docs</h6>
+                <h6 className='heading'>Docs</h6>
                 <div className="option flex">
                     <img src="Assets/doc.svg" alt="" />
                     <h5>Documentation</h5>
@@ -51,10 +51,12 @@ function SideNav() {
 
             </div>
             <div className="user flex">
-                <img src="Assets/products.svg" alt="" />
-                <div className="name">
-                    <h5>Admin</h5>
-                    <h5>Regular User</h5>
+                <div className="username flex">
+                    <img src="Assets/User.svg" alt="" />
+                    <div className="name">
+                        <h5>Admin</h5>
+                        <h5 className='dark'>Regular User</h5>
+                    </div>
                 </div>
                 <img src="Assets/notifications.svg" alt="" />
             </div>
